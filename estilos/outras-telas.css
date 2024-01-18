@@ -20,7 +20,7 @@ Grandes telas: acima de 1200px */
 }
 
 /* Configurações Tablets */
-@media screen and (min-width: 768px) and (max-width:1100px) {
+@media screen and (min-width: 768px) and (max-width:1500px) {
     body {
         background: linear-gradient(to top, var(--cor05), var(--cor02));
     }

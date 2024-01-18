@@ -63,4 +63,9 @@ Grandes telas: acima de 1200px */
     body {
         background: linear-gradient(to bottom right, var(--cor03), var(--cor01));
     }
+
+    section {
+        width: 1020px;
+        height: 400px;
+    }
 }

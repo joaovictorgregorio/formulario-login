@@ -3,4 +3,5 @@ Tela de login responsiva, desenvolvida com Media Queries para adaptação confor
 
 Acesse o projeto através do link: https://joaovictorgregorio.github.io/formulario-login
 ou use o qrcode abaixo ⤵️
+
                                                  ![Alt text](imagens/qrcode_formulario-login.png)

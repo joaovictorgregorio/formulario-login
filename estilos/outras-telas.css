@@ -66,6 +66,34 @@ Grandes telas: acima de 1200px */
 
     section {
         width: 1020px;
-        height: 400px;
+        height: 470px;
+    }
+
+    div#imagem {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: left;
+        width: 50%;
+    }
+
+    div#formulario > h1 {
+        margin: 15px 0px;
+    }
+
+    div#formulario > p {
+        font-size: 1.4em;
+        line-height: 2em;
+    }
+
+    div.informacoes_cadastro {
+        margin: 15px 0px;
+    }
+
+    input[type=submit] {
+        margin: 25px 0px 15px 0px;
     }
 }

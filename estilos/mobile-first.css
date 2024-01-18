@@ -63,11 +63,100 @@ div#formulario {
 div#formulario > h1 {
     font: normal 1.7em var(--fonte_login);
     text-align: center;
-    margin: 8px 0px;
+    margin: 3px 0px;
 }
 
 div#formulario > p {
     text-align: justify;
     line-height: 1.5em;
+}
+
+form {
+    margin: 10px 0px;
+}
+
+div.informacoes_cadastro {
+    display: block;
+    background: var(--cor04);
+    border-radius: 8px;
+    margin-bottom: 6px;
+}
+
+div.informacoes_cadastro > span {
+    width: 40px;
+    color: var(--cor05);
+    font-size: 1.8em;
+    padding: 5px;
+    transform: translateY(3px);
+}
+
+input.cadastro {
+    width: calc(100% - 47px);
+    height: 100%;
+    font-size: 0.9em;
+    background: #f8ab87;;
+    border: none;
+    border-radius: 8px;
+    padding: 10px;
+    transform: translateY(-5px);
+}
+
+input.cadastro:focus-within {
+    background: white;
+    border: none;
+}
+
+label {
+    display: none;
+}
+
+::placeholder {
+    font: lighter 1em 'Arial';
+}
+
+input[type=submit] {
+    display: block;
+    font: bold 0.9em 'Arial';
+    letter-spacing: 1.5px;
+    font-variant: small-caps;
+    background: var(--cor03);
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background: var(--cor02);
+    border: 1px solid var(--cor04);
+    transition: 0.5s;
+}
+
+a {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font: bold 0.9em 'Arial';
+    color: var(--cor05);
+    text-align: center;
+    border: 1px solid var(--cor05);
+    padding: 8px;
+    border-radius: 8px;
+    text-decoration: none;
+    padding-top: 1px;
+}
+
+a > span {
+    color: var(--cor05);
+}
+
+a:hover {
+    background: #0af0d960;
+    border: 1px solid var(--cor04);
+    transition: 0.5s;
 }
 

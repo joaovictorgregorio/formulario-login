@@ -20,7 +20,7 @@ Grandes telas: acima de 1200px */
 }
 
 /* Configurações Tablets */
-@media screen and (min-width: 768px) and (max-width:1500px) {
+@media screen and (min-width: 768px) and (max-width:1200px) {
     body {
         background: linear-gradient(to top, var(--cor05), var(--cor02));
     }
@@ -56,5 +56,11 @@ Grandes telas: acima de 1200px */
 
     input[type=submit] {
         margin: 25px 0px 15px 0px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background: linear-gradient(to bottom right, var(--cor03), var(--cor01));
     }
 }

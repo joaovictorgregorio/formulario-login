@@ -152,6 +152,7 @@ a {
 
 a > span {
     color: var(--cor05);
+    transform: translateY(7px);
 }
 
 a:hover {

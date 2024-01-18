@@ -8,3 +8,53 @@ Tablet: 768px até 992px;
 Desktop: 992px até 1200px;
 Grandes telas: acima de 1200px */
 
+:root {
+    /* Cores complementares */
+    --cor01: #0AF0D8;
+    --cor02: #B05B33;
+    --cor03: #F0520A;
+    --cor04: #3A9B91;
+    --cor05: #704D3D;
+
+    --fonte_login: 'login', 'sans-serif';
+}
+
+/* Configurações Tablets */
+@media screen and (min-width: 768px) and (max-width:992px) {
+    body {
+        background: linear-gradient(to top, var(--cor05), var(--cor02));
+    }
+
+    section {
+        width: 85vw;
+        height: 450px;
+    }
+
+    div#imagem {
+        float: left;
+        width: 40%;
+        height: 100%;
+    }
+
+    div#formulario {
+        float: right;
+        width: 60%;
+    }
+
+    div#formulario > h1 {
+        margin: 15px 0px;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+        line-height: 2em;
+    }
+
+    div.informacoes_cadastro {
+        margin: 15px 0px;
+    }
+
+    input[type=submit] {
+        margin: 25px 0px 15px 0px;
+    }
+}
